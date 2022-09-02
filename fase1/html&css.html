@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>HTML & CSS</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css">
+ <!--Styles CSS
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(226, 238, 8);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  border: groove;
+  border-color: rgb(0, 0, 129);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 100%;
+  height: 10%;
+  background: rgb(226, 238, 8);
+  padding: 30px;
+  border: groove;
+  border-color: rgb(0, 0, 129);
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: rgb(255,255,255);
+  border: groove;
+  border-color: rgb(0, 0, 129);
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(226, 238, 8);
+  padding: 10px;
+  text-align: center;
+  color: rgb(0, 0, 129);
+  border: groove;
+  border-color: rgb(0, 0, 129);
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+h1 {
+  color: rgb(0, 0, 129);
+  text-align: center;
+}
+
+p {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+a {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+pre {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+table {
+  font-family: tahoma, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(226, 238, 8);
+}
+</style>
+ -->
+</head>
+<body>
+
+
+<header>
+  <h1>HTML y CSS</h1>
+</header>
+
+<div id="menu">
+		<ul>
+			<li><a href="https://www.unad.edu.co">Home</a></li>
+			<li><a href="#">Nosotros</a></li>
+			<li><a href="#">Productos</a></li>
+			<li><a href="#">Servicios</a></li>
+			<li class="item-r"><a href="#">Contacto</a></li>
+		</ul>
+	</div>
+
+
+
+  
+ 
+  
+
+   
+
+
+<p style="background-color:rgb(117, 147, 161);">Ejercicios de programación HTML y CSS.</p>
+
+<p style="color:red"> "<del>A veces</del> Me divierte programar"</p>
+<p> "<ins>Siempre</ins> disfruto programando"</p>
+
+
+<br> <br>
+<h2>Poema Aquí (Octavio Paz)</h2>
+
+
+
+
+<a href="https://www.poemas-del-alma.com/">Encuentre aquí, más poemas</a>
+
+<pre>
+
+Mis pasos en esta calle
+
+Resuenan
+
+En otra calle
+
+Donde
+
+Oigo mis pasos
+
+Pasar en esta calle
+
+Donde
+
+Sólo es real la niebla.
+
+</pre>
+
+<br> <br>
+
+<h2>Lista no ordenada</h2>
+
+<ul>
+  <li>Ford</li>
+  <li>Toyota</li>
+  <li>Mercedes</li>
+  <li>Audi</li>
+</ul>
+
+<h2>Lista ordenada</h2>
+
+<ol>
+  <li>Ford</li>
+  <li>Toyota</li>
+  <li>Mercedes</li>
+  <li>Audi</li>
+</ol> 
+
+
+<h2>Incrustación de video iframe</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kMeWlp15-XE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<br> <br>
+
+<h2>Fotos</h2>
+
+<img src="foto.jpg" alt="Imagenes" width="480" height="240">
+
+<br> <br>
+
+<h2>HTML Table</h2>
+
+<table>
+  <tr>
+    <th>Compañia</th>
+    <th>Contacto</th>
+    <th>Región</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+<br>
+<br>
+
+<table>
+  <tr>
+    <th>Ecuación</th>
+    <th>Descripción</th>
+    <th>Área</th>
+  </tr>
+  <tr>
+    <td>  <p>c<sup>2</sup> = a<sup>2 </sup>+ b<sup>2</sup> </p>   </td>
+    <td>Teorema de Pitagoras</td>
+    <td>Trigonometría</td>
+  </tr>
+  <tr>
+    <td>  <p> Log <sub>2</sub> 8 = 3</p>   </td>
+    <td>Logaritmos</td>
+    <td>Matemáticas</td>
+  </tr>
+  <tr>
+</table>
+
+<br><br>
+
+<footer>
+  <h1>Todos los derechos reservados</h1>
+  <h1>Programación de Sitios Web UNAD</h1>
+</footer>
+
+</body>
+</html>
